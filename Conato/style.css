@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+    
+}
+
+header{
+    background-color: black;
+}
+
+
+
+li:hover {
+    color: gray;
+    transition: all 220ms linear;
+  }
+
+ul {
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    font-size: 20px;
+    color: black;
+
+  }
+
+  .outros-contatos{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: black;
+  }
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: gray;
+    transition: all 220ms linear;
+}
+
+.Contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Formulario{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+h1{
+    color: white;
+}
+
+
+.titulo-contato{
+    padding-top: 30px;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.enviar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.enviar:hover{
+    color: gray;
+    transition: all 220ms linear;
+}
+
+.contatos-02{
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
